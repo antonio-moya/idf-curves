@@ -31,7 +31,7 @@ class Main {
 			}
 		}
 		
-		System.out.println("AKIIII; faltan las series compuestas");
+		System.out.println("Series compuestas de todo el intervalo");
 		System.out.println("=== Precipitación: (" + res.rainfall.size() + " valores)");
 		res.rainfall.stream().forEach(d -> System.out.print(String.format("%.2f ", d)) );System.out.println("");
 		
